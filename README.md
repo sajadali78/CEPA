@@ -45,8 +45,12 @@ We attempted to compare the combined protections of voltage, frequency, and over
          - The circuit breaker on the generator side was tripped because of an overloaded frequency relay. 
          - When the breaker trips, the feeder manager relay interprets this as an overvoltage situation and trips the breaker on the generation side as well.
   
- ## Single Line Diagram:  
+ ## Single Line Diagram :  
  
- The following SLD was implemented on hardware:
+ The following SLD was implemented on hardware :
  
- SLD image
+![SLD IMAGE](https://github.com/sajadali78/CEPA/blob/main/sld.PNG)
+
+## Hardware Implementation :
+
+![](https://github.com/sajadali78/CEPA/blob/main/hardwareimp.PNG)
