@@ -113,3 +113,42 @@ resistive load and L1 inductive load:
 The relay showed the following trip status for under voltage condition:
 
 ![](https://github.com/sajadali78/CEPA/blob/main/observation6.PNG)
+
+## Over Current Protection:
+The Overcurrent relay connected on the load side of the SLD successfully tripped the
+Load side power circuit breaker when the relay sensed the over current condition at R3 load:
+
+![](https://github.com/sajadali78/CEPA/blob/main/image1.PNG)
+
+![](https://github.com/sajadali78/CEPA/blob/main/image2.PNG)
+
+## Voltage regulation through Compensation of voltages through shunt capacitors:
+
+At R1 L1 the line losses are increased and load current is higher:
+
+![](https://github.com/sajadali78/CEPA/blob/main/image3.PNG)
+
+The Following VI Measurements were taken on load side:
+ 
+![](https://github.com/sajadali78/CEPA/blob/main/image4.PNG)
+ 
+To compensate the line losses, the capacitor bank was switched using shunt 
+capacitor load at C1:
+
+![](https://github.com/sajadali78/CEPA/blob/main/image5.PNG)
+
+We can observe in the above measurements that generator voltages are recovered on
+generator side as well due to compensation using capacitor bank on load side.
+
+![](https://github.com/sajadali78/CEPA/blob/main/image6.PNG)
+
+## Analysis:
+We have analyzed that if the voltages, current or the frequency of the system were
+getting deviated from the set values (which indicates a fault), the system gets tripped.
+This happens when the load exceeds a certain threshold. We have also observed the
+load compensation effect (shunt) on the generation side. If the load was switched
+during normal operation to simulate an overcurrent condition, the voltage relay was
+tripped. The circuit breaker on the generator side was tripped because of an
+overloaded frequency relay. When the breaker trips, the feeder manager relay
+interprets this as an overvoltage situation and tripped the breaker on the generation
+side as well.
