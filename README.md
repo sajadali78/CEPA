@@ -12,3 +12,41 @@ In  this  Complex  Engineering  Problem  Activity  (CEPA)  you  will  implement 
 ####  Important Instruction to perform this task:  
 1. Use MSCom Software for the data acquisition.
 2. First energize the field winding then the armature winding in separately excited DC
+
+## **Introduction:**
+Frequency control, voltage control, and their respective protections are implemented on the generation side of this Complex Engineering Problem Activity (CEPA), and shunt compensation is implemented on the load side with OC protection under different load conditions. 
+## **Required & Software Equipment:**
+1. Synchronous Generator 
+2. Separately excited DC Motor 
+2. DC Power Supply 
+3. Power Circuit Breakers 
+4.Feeder Manager Relay 
+5. OC Relay
+6. Transmission Line Model 
+7. Resistive Loads 
+8. Inductive Loads 
+9. Capacitive Loads 
+10. Power Factor Meter 
+11 VI Measurement Meter 
+## Software Required: 
+1. MsCom2 
+## Safety Precautions:  
+1. The circuit must be connected in accordance with the topological circuit design. No equipment should be powered up while the circuit is connected. Because a DC motor is individually excited, its field winding must never be open-circuited.  
+2.Verify that the generator's RPMs are below 3000, the nominal RPMs. 
+3. Ensure that there are no cables running from the synchronous generator to the DC motor close to the prime mover
+
+## Objectives:  
+1. Implement Frequency control as well as voltage control on generation side of the system 
+2. Observe the shunt compensation on load side and its impact on generation side of the power system with OC protection 
+3. Observe the varying load conditions and its impact on frequency control and voltage control  
+## Problems and Scope of the Activity 
+We attempted to compare the combined protections of voltage, frequency, and over current in both steady and fluctuating conditions in this activity involving multiple protection schemes. Nonetheless, this work was restricted to the specifics of these protection schemes; no additional safeguards were added to the power grid. The Problems faced during this activity are summarized below: 
+          - If the load was switched during normal operation to simulate an      overcurrent condition, the voltage relay would trip. 
+         - The circuit breaker on the generator side was tripped because of an overloaded frequency relay. 
+         - When the breaker trips, the feeder manager relay interprets this as an overvoltage situation and trips the breaker on the generation side as well.
+  
+ ## Single Line Diagram:  
+ 
+ The following SLD was implemented on hardware:
+ 
+ SLD image
