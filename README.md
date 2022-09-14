@@ -58,3 +58,29 @@ We attempted to compare the combined protections of voltage, frequency, and over
 ## Procedure:  
 1. Ensure proper connections of the hardware. 
 2. Ensure Proper Communication of Feeder Manager Relay with MsCom2 Software:
+
+![](https://github.com/sajadali78/CEPA/blob/main/software_step1.PNG)
+
+3. Apply the following system settings to the feeder manager relay using MsCom2
+software:
+
+![](https://github.com/sajadali78/CEPA/blob/main/software_step2.PNG)
+
+4. Apply the function settings to choose the relay functions for voltage and
+frequency control for under and over voltage condition, similarly for frequency
+under and over frequency condition:
+
+![](https://github.com/sajadali78/CEPA/blob/main/software_step3.PNG)
+
+5. Apply the DO configuration for chosen relay functions:
+
+![](https://github.com/sajadali78/CEPA/blob/main/software_step4.PNG)
+
+
+6. Energize the field winding of the motor first and gradually increase the voltages
+of Armature winding till the prime mover achieves 3000 Nominal R.P.Ms.
+Note that 3000 R.P.Ms are to be maintained throughout the lab experiment for
+the normal operation of synchronous generator.
+7. Take observations at no load and varying load conditions for different resistive
+loads and frequency and voltage conditions.
+
