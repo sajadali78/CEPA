@@ -84,3 +84,32 @@ the normal operation of synchronous generator.
 7. Take observations at no load and varying load conditions for different resistive
 loads and frequency and voltage conditions.
 
+## Observations:
+At No load condition the Actual Measurements of the Feeder Manager Relay were:
+![](https://github.com/sajadali78/CEPA/blob/main/observation1.PNG)
+Since, the generator was operating at no load condition there was no line current and frequency and voltages were under nominal values.
+
+## Voltage and Frequency Control:
+On the generation side we have a feeder manager relay having voltage and frequency
+control options. At No load condition for over frequency condition the system
+frequency had increased from 50.3 to 50.7 and frequency control was initiated with relay
+giving an over frequency trip signal to circuit breaker.
+
+![](https://github.com/sajadali78/CEPA/blob/main/observation2.PNG)
+
+Voltages and frequency values whenR1 load connected to the load side:
+
+![](https://github.com/sajadali78/CEPA/blob/main/observation3.PNG)
+
+Since frequency was 49.44 relay below the under frequency threshold, the feeder
+manager relay issued an under frequency trip:
+
+![](https://github.com/sajadali78/CEPA/blob/main/observation4.PNG)
+
+For under voltage condition the following measurements were observed at R1 
+resistive load and L1 inductive load:
+![](https://github.com/sajadali78/CEPA/blob/main/observation5.PNG)
+
+The relay showed the following trip status for under voltage condition:
+
+![](https://github.com/sajadali78/CEPA/blob/main/observation6.PNG)
