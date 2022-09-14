@@ -53,4 +53,8 @@ We attempted to compare the combined protections of voltage, frequency, and over
 
 ## Hardware Implementation :
 
-![](https://github.com/sajadali78/CEPA/blob/main/hardwareimp.PNG)
+![](https://github.com/sajadali78/CEPA/blob/main/hardwareimp1.PNG)
+
+## Procedure:  
+1. Ensure proper connections of the hardware. 
+2. Ensure Proper Communication of Feeder Manager Relay with MsCom2 Software:
